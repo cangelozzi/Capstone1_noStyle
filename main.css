@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.searchField {
+  text-align: center;
+  margin: 10px 100px 10px 100px;
+  float:  right;
+  border: 1px solid gray;
+  background: url("images/black bg.jpeg");
+  border-radius: 10px;
+  padding: 10px 80px 260px 80px;
+  color:  #E3E3E3;
+  opacity: 0.9;
+  filter: alpha(opacity=80);
+  box-shadow: 20px 20px 50px 20px black;  
+  font-family: 'Andika', sans-serif;
+}
+
+.senses {
+  border: 1px solid black;
+  border-radius: 10px;
+  background: url("images/senses.jpeg");
+  padding: 50px 50px 50px 100px;
+  background-size: 310px 150px;
+  background-repeat: no-repeat;
+  margin-left: 30px;
+}
+
+.searchField h1 {
+  font-size: 300%;
+  padding-bottom: 120px;
+}
+
+.searchField p {
+  text-align: left;
+}
+
+.choicePage, .back, .toTaste, .toVision, .toTouch, .toAudition {
+  display: none;
+  text-align: center;
+}
+
+.question {
+  text-align: center;
+  margin: 100px 0px 80px 0px;
+}
+
+#taste, #vision, #touch, #audition {
+  border: 1px solid black;
+  padding: 40px;
+  display: inline-block;
+  margin: 10px;
+} 
+
+input {
+        height: 30px;
+        padding-left: 10px;
+        border-radius: 4px;
+        border: 1px solid rgb(186, 178, 178);
+        box-shadow: 0px 0px 12px #EFEFEF;
+      }
+
+/* hide pin in the Google Autocomplete City dropdown */
+/* https://developers.google.com/maps/documentation/javascript/places-autocomplete#style_autocomplete */
+.pac-icon {
+  width: 0;
+  background-image: none;
+}
+
+/* hide Region/Country in the Google Autocomplete City dropdown */
+/* https://developers.google.com/maps/documentation/javascript/places-autocomplete#style_autocomplete 
+.pac-item-query + span
+{
+    display: none
+} */
+
+/* hide "Powered by Google" in the Google Autocomplete City dropdown */
+.pac-container:after{display:none !important;}
+
+li {
+  list-style: none;
+}
+
+.etsy, .pics, .lastFm, .foursquare {
+  display: none;
+  text-align: center;
+}
+
+.back, .toTaste, .toVision, .toTouch, .toAudition {
+   float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
